@@ -5,7 +5,7 @@ const Button = props => {
   const { buttonStyle, textStyle } = styles;
 
   return (
-    <TouchableOpacity style={buttonStyle} onPress={props.handlePress}>
+    <TouchableOpacity style={buttonStyle} onPress={props.onPress}>
       <Text style={textStyle}>Click Me!</Text>
     </TouchableOpacity>
   );
@@ -26,7 +26,7 @@ const styles = {
     backgroundColor: '#fff',
     borderRadius: 5,
     borderWidth: 1,
-    botderColor: '#007aff',
+    borderColor: '#007aff',
     marginLeft: 5,
     marginRight: 5,
   },
